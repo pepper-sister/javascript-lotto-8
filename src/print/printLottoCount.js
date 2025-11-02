@@ -4,7 +4,7 @@ import { LOTTO_COUNT } from "../constants/message.js";
 
 export default function printLottoCount(purchaseAmount) {
   const lottoCount = purchaseAmount / LOTTO_PRICE;
-  Console.print(`\n${lottoCount}${LOTTO_COUNT}`);
+  Console.print(`${lottoCount}${LOTTO_COUNT}`);
 
-  return;
+  return lottoCount;
 }
