@@ -1,5 +1,3 @@
-export const LOTTO_PRICE = 1000;
-
 export const LOTTO_CORRECT = {
   THREE: "3개 일치 (5,000원) - ",
   FOUR: "4개 일치 (50,000원) - ",
