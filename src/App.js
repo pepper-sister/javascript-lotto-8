@@ -1,11 +1,11 @@
 import userInputMoney from "./utils/userInputMoney.js";
-import printLottoNumber from "./print/printLottoNumber.js";
+import printLottoCount from "./print/printLottoCount.js";
 import userInputNumber from "./utils/userInputNumber.js";
 
 class App {
   async run() {
     const purchaseAmount = await userInputMoney();
-    printLottoNumber(purchaseAmount);
+    printLottoCount(purchaseAmount);
     const { winNumberArray, bonusNumber } = await userInputNumber();
   }
 }
